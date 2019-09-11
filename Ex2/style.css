@@ -1,7 +1,7 @@
 /* main element first?? */
 
 html {
-	margin: auto;
+	
 
 
 }
@@ -13,14 +13,17 @@ a {
 
 
 body {
-	margin: 0;
+	font-family: "courier", "times new roman";
+	margin-top: 0;
+	margin-left: 15%;
+	margin-right: 15%;
 
 }
 
 li {
-	font-family: "courier", "times new roman";
+	
 	font-size: 20px;
-	width:  100px;
+	width:  125px;
 	display: inline-block;
 	padding:  10px;
 	border: solid 5px;
@@ -31,8 +34,7 @@ h1 {
 }
 
 article {
-	margin-left: 25%;
-	margin-right: 25%;
+	
 	text-align: center;
 	border: 3px solid black;
 	padding: 30px ;
@@ -41,15 +43,20 @@ article {
 /* ...then header */
 
 .fixedbar {
+
 	height: 200px;
+
+
 }
 
 .image {
 
+	left: 20%;
+	width: 60%; 
+	height: 200px;
 	position: fixed;
-	width: 100%; 
-	height: 200px; 
-	align-content: center;
+
+	
 
 }
 
@@ -64,4 +71,11 @@ article {
 	display: inline-block;
     width: 100px;
     color: black; 
+}
+
+/* on contact site */
+
+#input {
+	width: 150px;
+	border: solid black 2px;
 }
